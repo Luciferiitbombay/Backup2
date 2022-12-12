@@ -1,0 +1,75 @@
+.topbar {
+  background-image: linear-gradient(to right, rgb(0, 0, 2), rgb(27, 0, 137));
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 3;
+  color: white;
+  transition: all 1.5s ease-in-out;
+}
+.topbar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+.topbar .wrapper .left {
+  display: flex;
+  align-items: center;
+}
+.topbar .wrapper .left .logo {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 20px;
+  color: white;
+}
+.topbar .wrapper .left .itemcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.topbar .wrapper .left .itemcontainer .icon {
+  font-size: 20px;
+  margin: 2px 10px;
+}
+.topbar .wrapper .left .itemcontainer span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.topbar .wrapper .right .hamburger {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.topbar .wrapper .right .hamburger span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transform-origin: left;
+  transition: all 2s ease;
+}
+.topbar.active {
+  background-image: linear-gradient(to right, rgb(27, 0, 137));
+  color: rgb(3, 3, 50);
+}
+.topbar.active .hamburger {
+  display: flex;
+  flex-direction: row;
+}
+.topbar.active .hamburger span:first-child {
+  background-image: linear-gradient(to right, black, grey);
+  transform: rotate(40deg);
+}
+.topbar.active .hamburger span:nth-child(2) {
+  opacity: 0.5;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(240, 230, 230));
+}
+.topbar.active .hamburger span:last-child {
+  background-image: linear-gradient(to right, black, grey);
+  transform: rotate(-40deg);
+}/*# sourceMappingURL=Topbar_20221129011431.css.map */

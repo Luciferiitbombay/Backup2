@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+}
+.app .sections {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+.app .sections s > * {
+  width: 100%;
+  height: calc(100vh - 100px);
+  scroll-snap-align: start;
+}/*# sourceMappingURL=app_20221128212539.css.map */

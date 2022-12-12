@@ -1,0 +1,23 @@
+.works {
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.works .slider {
+  height: 350px;
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+.works .slider .container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.works .slider .container .item {
+  width: 700px;
+  height: 100%;
+  background-color: aliceblue;
+}/*# sourceMappingURL=works_20221130193511.css.map */

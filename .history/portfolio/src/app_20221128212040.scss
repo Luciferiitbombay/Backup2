@@ -1,0 +1,16 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: aqua;
+        position: relative;
+        top: 100px;
+    
+        > *{  //=> every component insid the section 
+            width: 100%;
+            height: calc(100vh - 100px);
+        }
+    }
+}

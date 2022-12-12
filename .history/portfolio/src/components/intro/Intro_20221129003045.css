@@ -1,0 +1,19 @@
+.intro {
+  background-color: rgb(97, 66, 29);
+  display: flex;
+}
+.intro .left {
+  flex: 0.5;
+  background-color: orange;
+}
+.intro .left .imagecontainer {
+  width: 700px;
+  height: 700px;
+}
+.intro .left .imagecontainer img {
+  width: 100%;
+}
+.intro .right {
+  flex: 0.5;
+  background-color: red;
+}/*# sourceMappingURL=Intro_20221129003045.css.map */

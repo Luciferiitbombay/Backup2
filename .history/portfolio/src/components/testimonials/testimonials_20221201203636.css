@@ -1,0 +1,65 @@
+.testimonials {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials h1 {
+  font-size: 50px;
+}
+.testimonials .container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials .container .card {
+  width: 250px;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: aliceblue;
+  margin: 0px 20px;
+}
+tra .testimonials .container .card.featured {
+  width: 300px;
+  height: 80%;
+  margin: 0px 15px;
+  border-radius: 20px;
+}
+.testimonials .container .card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.testimonials .container .card .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials .container .card .top img.left, .testimonials .container .card .top img.right {
+  height: 25px;
+}
+.testimonials .container .card .top img.user {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px 10px;
+}
+.testimonials .container .card .center {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: aqua;
+}
+.testimonials .container .card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=testimonials_20221201203636.css.map */

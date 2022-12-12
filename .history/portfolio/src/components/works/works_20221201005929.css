@@ -1,0 +1,89 @@
+.works {
+  background-color: rgb(95, 239, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.works .arrow {
+  height: 100px;
+  position: absolute;
+}
+.works .arrow.left {
+  left: 150px;
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+.works .arrow.right {
+  right: 150px;
+  cursor: pointer;
+}
+.works .slider {
+  height: 350px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease-out;
+}
+.works .slider .container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.works .slider .container .item {
+  display: flex;
+  width: 700px;
+  height: 100%;
+  background-color: aliceblue;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.works .slider .container .item .left {
+  flex: 4;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.works .slider .container .item .left .leftContainer {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.works .slider .container .item .left .leftContainer .imgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.works .slider .container .item .left .leftContainer .imgContainer .img {
+  width: 30px;
+}
+.works .slider .container .item .left .leftContainer h2 {
+  font-size: 20px;
+}
+.works .slider .container .item .left .leftContainer p {
+  font-size: 13px;
+}
+.works .slider .container .item .left .leftContainer span {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.works .slider .container .item .right {
+  flex: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-10deg);
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=works_20221201005929.css.map */

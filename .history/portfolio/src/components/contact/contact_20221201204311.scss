@@ -1,0 +1,19 @@
+.contact{
+    background-color: lightblue;
+    display: flex;
+
+    .left{
+        flex: 1;
+        overflow: hidden;
+
+        img{
+            height: 100%;
+        }
+
+    }
+    .right{
+        flex: 1;
+
+        
+    }
+}

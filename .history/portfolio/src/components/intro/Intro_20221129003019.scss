@@ -1,0 +1,19 @@
+.intro{
+    background-color: rgb(97, 66, 29);
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        background-color: orange;
+
+        .imagecontainer{
+            width: 700px;
+        }
+    }
+
+    .right{
+        flex: 0.5;
+        background-color: red;
+
+    }
+}

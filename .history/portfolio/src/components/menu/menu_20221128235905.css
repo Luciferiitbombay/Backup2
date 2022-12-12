@@ -1,0 +1,10 @@
+.menu {
+  width: 300px;
+  height: 100vh;
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+}/*# sourceMappingURL=menu_20221128235905.css.map */

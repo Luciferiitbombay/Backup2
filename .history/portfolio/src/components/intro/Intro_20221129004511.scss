@@ -1,0 +1,30 @@
+.intro{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        background-image: radial-gradient(rgb(2, 8, 33), rgb(6, 8, 40), rgb(228, 234, 237));
+
+        .imagecontainer{
+            width: 90%;
+            height: 100%;
+            overflow-y: hidden;
+            
+    
+
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .right{
+        flex: 0.5;
+        background-color: red;
+
+    }
+}

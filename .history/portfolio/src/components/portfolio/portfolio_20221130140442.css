@@ -1,0 +1,24 @@
+.portfolio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio h1 {
+  font-size: 50px;
+}
+.portfolio ul {
+  margin: 10px;
+  padding: 2px;
+  list-style: none;
+  display: flex;
+}
+.portfolio ul li {
+  margin: 10px 2px;
+  font-size: 20px;
+  padding: 2px 2px;
+}
+.portfolio ul li.active {
+  background-image: linear-gradient(to right, rgb(0, 0, 2), rgb(27, 0, 137));
+  color: aliceblue;
+}/*# sourceMappingURL=portfolio_20221130140442.css.map */

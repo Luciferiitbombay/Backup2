@@ -1,0 +1,12 @@
+.portfolio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio h1 {
+  font-size: 50px;
+}
+.portfolio ul {
+  margin: 10px;
+}/*# sourceMappingURL=portfolio_20221130015347.css.map */

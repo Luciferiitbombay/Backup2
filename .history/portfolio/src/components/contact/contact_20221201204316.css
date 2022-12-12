@@ -1,0 +1,15 @@
+.contact {
+  background-color: lightblue;
+  display: flex;
+}
+.contact .left {
+  flex: 1;
+  overflow: hidden;
+}
+.contact .left img {
+  height: 100%;
+}
+.contact .right {
+  flex: 1;
+  display: flex;
+}/*# sourceMappingURL=contact_20221201204316.css.map */

@@ -1,0 +1,14 @@
+.app {
+  height: 100vh;
+}
+.app .sections {
+  width: 100%;
+  height: calc(100vh - 100px);
+  height: calc(100vh - 100px);
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+}
+.app > * {
+  width: 100vh;
+}/*# sourceMappingURL=app_20221128211802.css.map */

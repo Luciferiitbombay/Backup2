@@ -1,0 +1,22 @@
+.intro {
+  background-color: rgb(97, 66, 29);
+  display: flex;
+}
+.intro .left {
+  flex: 0.5;
+  background-color: orange;
+  overflow: hidden;
+}
+.intro .left .imagecontainer {
+  width: 90%;
+  height: 100%;
+  overflow-y: hidden;
+  display: flex;
+}
+.intro .left .imagecontainer img {
+  width: 100%;
+}
+.intro .right {
+  flex: 0.5;
+  background-color: red;
+}/*# sourceMappingURL=Intro_20221129003545.css.map */

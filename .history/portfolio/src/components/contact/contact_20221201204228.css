@@ -1,0 +1,10 @@
+.contact {
+  background-color: lightblue;
+  display: flex;
+}
+.contact .left {
+  flex: 1;
+}
+.contact .right {
+  flex: 1;
+}/*# sourceMappingURL=contact_20221201204228.css.map */

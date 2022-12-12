@@ -1,0 +1,22 @@
+.app {
+  height: 100vh;
+}
+.app .sections {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+.app .sections::-webkit-scrollbar {
+  display: none;
+}
+.app .sections > * {
+  width: 100%;
+  height: calc(100vh - 100px);
+  scroll-snap-align: start;
+}/*# sourceMappingURL=app_20221128213251.css.map */

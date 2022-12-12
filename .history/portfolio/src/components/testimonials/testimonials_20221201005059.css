@@ -1,0 +1,9 @@
+.testimonials {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials h1 {
+  font-size: 50px;
+}/*# sourceMappingURL=testimonials_20221201005059.css.map */
